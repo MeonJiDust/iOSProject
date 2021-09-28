@@ -7,6 +7,7 @@
 
 import UIKit
 import FSCalendar
+import Firebase
 
 class ViewController: UIViewController {
 

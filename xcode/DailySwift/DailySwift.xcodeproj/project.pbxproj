@@ -14,6 +14,8 @@
 		40A553182701A65500E54E3E /* DailySwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A553162701A65500E54E3E /* DailySwift.xcdatamodeld */; };
 		40A5531A2701A65700E54E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A553192701A65700E54E3E /* Assets.xcassets */; };
 		40A5531D2701A65700E54E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A5531B2701A65700E54E3E /* LaunchScreen.storyboard */; };
+		40A553252703231200E54E3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40A553242703231200E54E3E /* GoogleService-Info.plist */; };
+		40A553292703405C00E54E3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A553282703405C00E54E3E /* LoginViewController.swift */; };
 		C558DB86BDBC9995320A2DB3 /* Pods_DailySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3339394A14F57CAEB806B /* Pods_DailySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		40A553192701A65700E54E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A5531C2701A65700E54E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A5531E2701A65700E54E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A553242703231200E54E3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40A553282703405C00E54E3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E5CB549AF9A855113A6EF04 /* Pods-DailySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailySwift.debug.xcconfig"; path = "Target Support Files/Pods-DailySwift/Pods-DailySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		DDC3339394A14F57CAEB806B /* Pods_DailySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFE006509616E507DADAAA3 /* Pods-DailySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailySwift.release.xcconfig"; path = "Target Support Files/Pods-DailySwift/Pods-DailySwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 		40A5530C2701A65500E54E3E /* DailySwift */ = {
 			isa = PBXGroup;
 			children = (
+				40A553242703231200E54E3E /* GoogleService-Info.plist */,
 				40A5530D2701A65500E54E3E /* AppDelegate.swift */,
 				40A5530F2701A65500E54E3E /* SceneDelegate.swift */,
 				40A553112701A65500E54E3E /* ViewController.swift */,
@@ -73,6 +78,7 @@
 				40A5531B2701A65700E54E3E /* LaunchScreen.storyboard */,
 				40A5531E2701A65700E54E3E /* Info.plist */,
 				40A553162701A65500E54E3E /* DailySwift.xcdatamodeld */,
+				40A553282703405C00E54E3E /* LoginViewController.swift */,
 			);
 			path = DailySwift;
 			sourceTree = "<group>";
@@ -91,7 +97,6 @@
 				5E5CB549AF9A855113A6EF04 /* Pods-DailySwift.debug.xcconfig */,
 				FCFE006509616E507DADAAA3 /* Pods-DailySwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A5531D2701A65700E54E3E /* LaunchScreen.storyboard in Resources */,
+				40A553252703231200E54E3E /* GoogleService-Info.plist in Resources */,
 				40A5531A2701A65700E54E3E /* Assets.xcassets in Resources */,
 				40A553152701A65500E54E3E /* Main.storyboard in Resources */,
 			);
@@ -213,6 +219,7 @@
 				40A553122701A65500E54E3E /* ViewController.swift in Sources */,
 				40A5530E2701A65500E54E3E /* AppDelegate.swift in Sources */,
 				40A553102701A65500E54E3E /* SceneDelegate.swift in Sources */,
+				40A553292703405C00E54E3E /* LoginViewController.swift in Sources */,
 				40A553182701A65500E54E3E /* DailySwift.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

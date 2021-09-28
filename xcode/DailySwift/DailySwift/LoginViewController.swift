@@ -13,23 +13,28 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
+    @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var registerBtn: UIButton!
     
-    @IBAction func loginBtn(_ sender: Any) {
+    let myStoryBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+    
+    @IBAction func loginBtn_click(_ sender: Any) {
         Auth.auth().signIn(withEmail: emailTextField.text!, password: pwTextField.text!) { (user, error) in
 
                     if user != nil{
-
                         print("login success")
-
                     }
-
                     else{
-
                         print("login fail")
-
                     }
-
               }
+    }
+    
+    @IBAction func registerBtn_click(_ sender: Any) {
+        let regiController = myStoryBoard.instantiateViewController(withIdentifier: "regiController")
+        
+        self.show(regiController, sender: self)
+        
     }
     
     override func viewDidLoad() {

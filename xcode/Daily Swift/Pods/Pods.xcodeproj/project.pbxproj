@@ -68,7 +68,7 @@
 		28943A7810D6175387D6744B570EBB27 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
 		2BF7AC0C486E35F9F0D62EE001FD087F /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
 		2D9F5B0C16311DED1603116DC59CB19B /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
-		2E779486523949D39EDC5131E8275675 /* Pods-Daily Routine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Daily Routine.modulemap"; sourceTree = "<group>"; };
+		2E779486523949D39EDC5131E8275675 /* Pods-Daily Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Daily Swift.modulemap"; sourceTree = "<group>"; };
 		391C0BAE04BDE1BB95858A28724CADF1 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
 		39E468E8E37FA4504EB76A1F13AEDB12 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
 		3C46BAFFA2724D5B9CBFE8B545105FAE /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
@@ -92,10 +92,10 @@
 		83ED9ACE9B1431F1D10073D1C8CCE651 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
 		8AA04D0EB5F1BC27E7FC74EB14A00277 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
 		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9775EA3767C75D49BE07973219FA2B75 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
 		9B74A552E68AE04FE6359BF2F94E0599 /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC4780C9044BA362AAAA413962D5012 /* Pods-Daily Routine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily Routine.debug.xcconfig"; sourceTree = "<group>"; };
 		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A94962431DFBB4626A3662A04D580E38 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		D964B7101E044CBEBDCDEDACAA0137F2 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
 		E4209C164C12339631C8B093FA85C780 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
 		E9B9CB4CCF489E95415574B1D04FFB4C /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
-		EE8A3E89B5BA871816CD56E7C62EA3F0 /* Pods_Daily_Routine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Daily_Routine.framework; path = "Pods-Daily Routine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8A3E89B5BA871816CD56E7C62EA3F0 /* Pods_Daily_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEC2D23362FAD6D0675A24270884BD0 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
 		F4CD76A53CBC934ED1353FD583A29181 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
 		F5D2EA0BB42A5A6D3FC8EF7C81B824EB /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
-				EE8A3E89B5BA871816CD56E7C62EA3F0 /* Pods_Daily_Routine.framework */,
+				EE8A3E89B5BA871816CD56E7C62EA3F0 /* Pods_Daily_Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,14 +197,13 @@
 				46DCB529DA6814CE5145C0FFFA58A5EA /* FSCalendarWeekdayView.m */,
 				E9C5AF6BDD86A915096ACCED0A192AF0 /* Support Files */,
 			);
-			name = FSCalendar;
 			path = FSCalendar;
 			sourceTree = "<group>";
 		};
-		61388DD5D64544BCB29BFFD76430D061 /* Pods-Daily Routine */ = {
+		61388DD5D64544BCB29BFFD76430D061 /* Pods-Daily Swift */ = {
 			isa = PBXGroup;
 			children = (
-				2E779486523949D39EDC5131E8275675 /* Pods-Daily Routine.modulemap */,
+				2E779486523949D39EDC5131E8275675 /* Pods-Daily Swift.modulemap */,
 				0ABEB744DEBC4AFCB3556F1F521565FE /* Pods-Daily Routine-acknowledgements.markdown */,
 				63836A0E0E8B850B459ADE9C95AD7013 /* Pods-Daily Routine-acknowledgements.plist */,
 				C7C3EF16F89DB1AE296D9E573DC04D78 /* Pods-Daily Routine-dummy.m */,
@@ -214,14 +213,14 @@
 				9DC4780C9044BA362AAAA413962D5012 /* Pods-Daily Routine.debug.xcconfig */,
 				4B1CD9C8450181C4A1AB7DA2E0C336C1 /* Pods-Daily Routine.release.xcconfig */,
 			);
-			name = "Pods-Daily Routine";
-			path = "Target Support Files/Pods-Daily Routine";
+			name = "Pods-Daily Swift";
+			path = "Target Support Files/Pods-Daily Swift";
 			sourceTree = "<group>";
 		};
 		B94EC814074DE77E5AFFF367F72E3770 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61388DD5D64544BCB29BFFD76430D061 /* Pods-Daily Routine */,
+				61388DD5D64544BCB29BFFD76430D061 /* Pods-Daily Swift */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -318,9 +317,9 @@
 			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BD446F294219372780383C7333C4542D /* Pods-Daily Routine */ = {
+		BD446F294219372780383C7333C4542D /* Pods-Daily Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A633155F424B866E76A1F20776D117C4 /* Build configuration list for PBXNativeTarget "Pods-Daily Routine" */;
+			buildConfigurationList = A633155F424B866E76A1F20776D117C4 /* Build configuration list for PBXNativeTarget "Pods-Daily Swift" */;
 			buildPhases = (
 				71D1477A59FD9D1DD8C65AF825708BCE /* Headers */,
 				886949730B9E5AE56D44E9338F97A187 /* Sources */,
@@ -332,9 +331,9 @@
 			dependencies = (
 				C28603A88C7DF075BD2D27ACA0304EBE /* PBXTargetDependency */,
 			);
-			name = "Pods-Daily Routine";
+			name = "Pods-Daily Swift";
 			productName = "Pods-Daily Routine";
-			productReference = EE8A3E89B5BA871816CD56E7C62EA3F0 /* Pods_Daily_Routine.framework */;
+			productReference = EE8A3E89B5BA871816CD56E7C62EA3F0 /* Pods_Daily_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -360,7 +359,7 @@
 			projectRoot = "";
 			targets = (
 				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
-				BD446F294219372780383C7333C4542D /* Pods-Daily Routine */,
+				BD446F294219372780383C7333C4542D /* Pods-Daily Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -440,7 +439,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Daily Routine/Pods-Daily Routine-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily Swift/Pods-Daily Swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,7 +448,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Daily Routine/Pods-Daily Routine.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily Swift/Pods-Daily Swift.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -544,7 +543,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Daily Routine/Pods-Daily Routine-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily Swift/Pods-Daily Swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,7 +552,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Daily Routine/Pods-Daily Routine.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily Swift/Pods-Daily Swift.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -719,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A633155F424B866E76A1F20776D117C4 /* Build configuration list for PBXNativeTarget "Pods-Daily Routine" */ = {
+		A633155F424B866E76A1F20776D117C4 /* Build configuration list for PBXNativeTarget "Pods-Daily Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5CA315FA58DD6D70079204543EAE591 /* Debug */,

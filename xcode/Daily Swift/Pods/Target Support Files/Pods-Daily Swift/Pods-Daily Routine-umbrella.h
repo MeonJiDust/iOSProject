@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Daily_RoutineVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Daily_RoutineVersionString[];
+FOUNDATION_EXPORT double Pods_Daily_SwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Daily_SwiftVersionString[];
 

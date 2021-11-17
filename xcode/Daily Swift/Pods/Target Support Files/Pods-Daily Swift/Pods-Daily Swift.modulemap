@@ -1,6 +1,0 @@
-framework module Pods_Daily_Swfit {
-  umbrella header "Pods-Daily Swift-umbrella.h"
-
-  export *
-  module * { export * }
-}

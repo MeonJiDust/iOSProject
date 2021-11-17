@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/02.011x/Documents/GitHub/Self-Study/ios-Develop-master/iOS Project/Toy Project/Daily Swift/Daily Swift.xcodeproj">
+      location = "group:Daily Swift">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

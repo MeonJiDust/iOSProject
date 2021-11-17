@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Daily Routine
 //
-//  Created by 석상우 on 2021/05/17.
+//  Created by 정익상 on 2021/11/17.
 //
 
 import UIKit
